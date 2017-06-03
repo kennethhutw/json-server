@@ -133,6 +133,3 @@ http://localhost:3000/todos?_sort=priority&order=DESC
 
 
 
-## License
-
-DataTables is release under the [MIT license](//datatables.net/license). You are free to use, modify and distribute this software, as long as the copyright header is left intact (specifically the comment block which starts with `/*!`.
