@@ -10,6 +10,8 @@ Serverr : https://github.com/typicode/json-server
    -  npm install -g json-server
 ```
 
+ ![install](img/cmd.png)
+ 
 2. start service
 
 ```
@@ -24,12 +26,14 @@ Serverr : https://github.com/typicode/json-server
    http://localhost:3000
 ```   
  
+ ![localhost](img/homepage.png)
+ 
 4. try to get posts resource by postman.
 
 
+ ![localhost](img/postman.png)
 
-
-##JSON-SERVER support HTTP operation method
+## JSON-SERVER support HTTP operation method
 
    GET
    DELETE
@@ -38,7 +42,7 @@ Serverr : https://github.com/typicode/json-server
    PATCH
 
 
-##Features
+## Features
 
 ```
 {
@@ -75,14 +79,19 @@ We need to post this data without specifying an ID in the URI, but add it in the
 http://localhost:3000/todos/2
 ```
 
+ ![localhost](img/ID.png)
 
+ 
  2. Search
-You can search within a resource for relevant results. For example, in the todos API, if you want to search for the word "Discovery", then you need to add an optional parameter q to your URI:
+You can search within a resource for relevant results. For example, in the todos API, if you want to search for the word "PMP", then you need to add an optional parameter q to your URI:
 
 ```
 http://localhost:3000/todos?q=PMP
 ```
 
+ ![localhost](img/search.png)
+
+ 
 
 3. Filters
 You can apply filters to your requests again using the ? sign. The q filter is reserved for search as we've seen above.
@@ -93,6 +102,9 @@ If you want to get the uncompleted list, you can send a GET request to your reso
 http://localhost:3000/todos?complete=false
 ```
 
+ ![localhost](img/filter.png)
+
+ 
  
 4. Pagination
 json-server, by default, provides pagination support with 10 items per page. Pagination comes in handy when prototyping apps that'll have pages or will load data when scrolling.
@@ -103,6 +115,7 @@ For example, if you want to access page 3 of your todos's API, send a GET reques
 http://localhost:3000/todos?_page=3
 ```
 
+ ![localhost](img/page.png)
 
 
 5. Sorting
@@ -115,7 +128,7 @@ http://localhost:3000/todos?_sort=priority&order=DESC
 ```
 
 
-
+ ![localhost](img/Sorting.png)
 
 
 
