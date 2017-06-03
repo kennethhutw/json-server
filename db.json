@@ -1,0 +1,158 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "Kenneth"
+    },
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "Kenneth2"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "todos" :[
+    {
+      "id": 1,
+      "todo": "study json-server",
+      "complete": true,
+      "priority" : 1
+    },
+    {
+      "id": 2,
+      "todo": "study frontend",
+      "complete": false,
+      "priority" : 3
+    },
+    {
+      "id": 3,
+      "todo": "PMP",
+      "complete": false,
+      "priority" : 2
+    },
+    {
+      "id": 4,
+      "todo": "MBA",
+      "complete": false,
+      "priority" : 4
+    },
+    {
+      "id": 5,
+      "todo": "JQUERY",
+      "complete": false,
+      "priority" : 5
+    },
+    {
+      "id": 6,
+      "todo": "Boostrap",
+      "complete": false,
+      "priority" : 8
+    },
+    {
+      "id": 7,
+      "todo": "JSON",
+      "complete": false,
+      "priority" : 10
+    },
+    {
+      "id": 8,
+      "todo": "GULP",
+      "complete": false,
+      "priority" : 7
+    },
+    {
+      "id": 9,
+      "todo": "ANGULAR",
+      "complete": false,
+      "priority" : 9
+    },
+    {
+      "id": 10,
+      "todo": "GIT",
+      "complete": false,
+      "priority" : 6
+    },
+    {
+      "id": 11,
+      "todo": "C#",
+      "complete": false,
+      "priority" : 11
+    },
+    {
+      "id": 12,
+      "todo": "VB",
+      "complete": false,
+      "priority" : 14
+    },
+    {
+      "id": 13,
+      "todo": "JAVASCRIPT",
+      "complete": false,
+      "priority" : 16
+    },
+    {
+      "id": 14,
+      "todo": "CSS",
+      "complete": false,
+      "priority" : 15
+    },
+    {
+      "id": 15,
+      "todo": "TYPESCRIPT",
+      "complete": false,
+      "priority" : 12
+    },
+    {
+      "id": 16,
+      "todo": "MOCKDATA",
+      "complete": false,
+      "priority" : 17
+    },
+    {
+      "id": 17,
+      "todo": "POSTMAN",
+      "complete": false,
+      "priority" : 20
+    },
+    {
+      "id": 18,
+      "todo": "SLACK",
+      "complete": false,
+      "priority" : 18
+    },
+    {
+      "id": 19,
+      "todo": "API",
+      "complete": false,
+      "priority" : 13
+    },
+    {
+      "id": 20,
+      "todo": "GULP",
+      "complete": false,
+      "priority" : 22
+    },
+    {
+      "id": 21,
+      "todo": "REACT",
+      "complete": false,
+      "priority" : 19
+    },
+    {
+      "id": 22,
+      "todo": "Webpack",
+      "complete": false,
+      "priority" : 21
+    }
+  ]
+}
